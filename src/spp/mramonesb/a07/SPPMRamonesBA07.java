@@ -18,8 +18,8 @@ public class SPPMRamonesBA07 {
     public static void main(String[] args) {
         // arreglo       
         int num;
-        String [] tel = new String[10];
         Scanner kb = new Scanner (System.in);
+        String [] tel = new String[10];
         for (int i = 0; i < tel.length; i++){
             System.out.println ("Tecle el numero de telefono" + i);
             tel[i] = kb.nextLine();
