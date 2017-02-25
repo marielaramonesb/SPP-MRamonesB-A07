@@ -21,13 +21,13 @@ public class SPPMRamonesBA07 {
         String [] tel = new String[10];
         Scanner kb = new Scanner (System.in);
         for (int i = 0; i < tel.length; i++){
-            System.out.println ("Teclea el numero de telefono" + i);
+            System.out.println ("Tecle el numero de telefono" + i);
             tel[i] = kb.nextLine();
         }
-        System.out.println("Porfavor introduzca que numero quiere");
+        System.out.println("Porfavor introduzca el numero que quiere");
         num = kb.nextInt();
         if (num  < tel.length){
-        System.out.println("El número solicitado es " + tel[num]);
+        System.out.println("El número que solicito es " + tel[num]);
         } else System.out.println("El número ingresado está fuera de rango");
     }
 }
